@@ -1,0 +1,50 @@
+*{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.create-form button{
+    background-color: rgb(7, 3, 252);
+    color: aqua;
+    padding: 15px;
+    font-size: 20px;
+    border: 0;
+}
+.create-form input{
+    background-color: rgb(182, 249, 223);
+    color: darkorchid;
+    font-size: 20px;
+    padding: 15px;
+    width: 325px;
+    border: 0;
+}
+.todo p{
+    height: 30px;
+    width: 400px;
+    background-color: bisque;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box .icon{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.box div .icon{
+    cursor: pointer;
+}
+.line_through{
+    text-decoration: line-through;
+}
