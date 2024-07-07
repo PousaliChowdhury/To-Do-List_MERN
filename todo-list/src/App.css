@@ -15,7 +15,7 @@
     color: darkorchid;
     font-size: 20px;
     padding: 15px;
-    width: 325px;
+    width: 425px;
     border: 0;
 }
 .todo p{
@@ -27,6 +27,10 @@
     padding: 10px;
     margin: 10px;
     border: 0;
+}
+.todo .pencil{
+    margin: 6px;
+    margin-right: 8px;
 }
 .home{
     display: flex;
