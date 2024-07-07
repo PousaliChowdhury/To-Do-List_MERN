@@ -9,10 +9,10 @@ Responsive UI: The application features a responsive design for use on various d
 Technologies Used
 
 ## Frontend:
-React.js
-Axios for HTTP requests
-CSS for styling
-React Icons for icons
+- React.js
+* Axios for HTTP requests
++ CSS for styling
+- React Icons for icons
 
 ## Backend:
 Node.js
