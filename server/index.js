@@ -32,17 +32,17 @@ app.delete('/delete/:id', (req,res) => {
     .catch(err => res.json(err))
 })
 
-// app.toggle('/toggle/:id', (req,res) => {
-//     const {id} = req.params;
-//     // console.log(id);
-//     TodoModel.findById(id)
-//     .then(task => {
-//         task.done = !task.done;
-//         return task.save();
-//     })
-//     .then(result => res.json(result))
-//     .catch(err => res.json(err))
-// })
+app.put('/toggle/:id', (req,res) => {
+    const {id} = req.params;
+    // console.log(id);
+    TodoModel.findById(id)
+    .then(task => {
+        task.done = !task.done;
+        return task.save();
+    })
+    .then(result => res.json(result))
+    .catch(err => res.json(err))
+});
 
 app.post('/add', (req,res) => {
     const task = req.body.task;
