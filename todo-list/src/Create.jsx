@@ -13,7 +13,7 @@ function Create() {
   }
   return (
     <div className='create-form'>
-        <input type='text' name='' id='' placeholder='Enter Text' onChange={(e)=> setTask(e.target.value)}></input>
+        <input type='text' name='' id='' placeholder='Add ToDos...' onChange={(e)=> setTask(e.target.value)}></input>
         <button type='button' onClick={handleAdd}>Add</button>
     </div>
   )
