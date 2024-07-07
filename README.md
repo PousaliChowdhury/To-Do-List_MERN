@@ -2,7 +2,6 @@
 
 ## Features
 - Add Tasks: Users can add new tasks to their to-do list.
-<html> <-- Update Tasks: Users can update the text of existing tasks.--> </html>
 - Delete Tasks: Users can delete tasks from their to-do list.
 - Toggle Tasks: Users can mark tasks as completed or incomplete.
 - Responsive UI: The application features a responsive design for use on various devices.
