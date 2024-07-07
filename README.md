@@ -21,12 +21,15 @@ MongoDB with Mongoose for the database
 
 ## Install dependencies for both frontend and backend
 ### Install server dependencies & start
+```
 cd server
 npm install
 npm start
+```
 
 ### Install client dependencies & start
+```
 cd client
 npm install
 npm run dev
-
+```
