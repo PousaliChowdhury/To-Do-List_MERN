@@ -28,7 +28,18 @@ npm start
 
 ### Install client dependencies & start
 ```
+npm create vite@latest
 cd client
 npm install
 npm run dev
 ```
+
+# Access the application:
+Open your web browser and navigate to `http://localhost:3000`
+
+# API Endpoints
+- GET /get: Retrieve all tasks
+- POST /add: Add a new task
+- PUT /update: Update an existing task
+- PUT /toggle: Toggle the completion status of a task
+- DELETE /delete: Delete a task
