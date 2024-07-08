@@ -43,7 +43,7 @@ function Home() {
 
   return (
     <div className='home'>
-        <h1>To-Do List</h1>
+        <h1>My ToDos</h1>
         <Create/>
         <br />
         {
