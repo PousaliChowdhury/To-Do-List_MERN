@@ -34,10 +34,10 @@ npm install
 npm run dev
 ```
 
-# Access the application:
+## Access the application:
 Open your web browser and navigate to `http://localhost:3000`
 
-# API Endpoints
+## API Endpoints
 - GET /get: Retrieve all tasks
 - POST /add: Add a new task
 - PUT /update: Update an existing task
